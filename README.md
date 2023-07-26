@@ -1,9 +1,9 @@
 # Visualizing-Eigenvector-Dynamics
 
 ## Description
-Principal component analysis (PCA) can yield scalar weights that can be analyzed and visualized in various ways. The following are a few examples of the power of PCA: Correlation Matrices, Time Series Correlations, Polar Coordinate EQ Bar Visualization.
+Principal component analysis (PCA) can yield scalar weights that can be analyzed and visualized in various ways. The following are a few examples of the power of PCA: Polar Coordinate EQ Bar Visualization, Correlation Matrices, Time Series Correlations.
 
-## Correlation Matrix Implementation
+## Polar Coordinate EQ Bar Visualization
 The input data must be a matrix compiling all of the polar coordinate descriptions of an object over time and across different experimental conditons. This particular code is designed for a csv file.
 
 Type in the file directory leading to your input csv file into the "Calculating principal components.py" script. The script will calculate the eigenvalues and associated eigenvectors that will explain the variance in the data, select the top eight eigenvectors, and save them as a csv file.
@@ -16,8 +16,7 @@ The "Top eight eigenvectors.jpeg" file is an image of the top eight eigenvectors
 ![Top eight eigenvectors](https://github.com/John-CU-Ahn/Principal-Component-Analysis-of-Biological-Images/assets/140204157/0ca374ec-fb05-4f05-8730-c6ef5d6af8e3)
 
 
+## Correlation Matrices
+
+
 ## Time Series Correlations
-
-
-## Polar Coordinate EQ Bar Visualization
-
